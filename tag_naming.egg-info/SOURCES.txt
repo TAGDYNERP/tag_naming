@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+tag_naming/__init__.py
+tag_naming/hooks.py
+tag_naming.egg-info/PKG-INFO
+tag_naming.egg-info/SOURCES.txt
+tag_naming.egg-info/dependency_links.txt
+tag_naming.egg-info/not-zip-safe
+tag_naming.egg-info/top_level.txt
+tag_naming/tag_naming/__init__.py
+tag_naming/tag_naming/naming.py

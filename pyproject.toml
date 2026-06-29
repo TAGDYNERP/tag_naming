@@ -1,0 +1,9 @@
+[project]
+name = "tag_naming"
+authors = [
+    {name = "ai@tagdyn.com", email = "ai@tagdyn.com"}
+]
+description = "Custom naming series for TAG manufacturing documents"
+requires-python = ">=3.11"
+readme = "README.md"
+dynamic = ["version"]
