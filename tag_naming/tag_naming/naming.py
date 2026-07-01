@@ -62,8 +62,8 @@ def project_before_insert(doc, method=None):
     if not tag_num:
         return
 
-    customer = doc.get("customer") or ""
-    new_name = f"TAG {tag_num} for {customer}" if customer else f"TAG {tag_num}"
+    sales_type = doc.get("custom_sales_type") or ""
+    new_name = f"TAG {tag_num} for {sales_type}" if sales_type else f"TAG {tag_num}"
     # Project autoname = field:project_name — keep them in sync
     doc.project_name = new_name
     _set_name(doc, new_name)
